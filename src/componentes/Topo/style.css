@@ -1,0 +1,42 @@
+.modo-claro {
+  background-color: #fff;
+}
+
+.modo-escuro {
+  background-color: #252525;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header button {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.modo-claro-btn {
+  background-color: #fff;
+  border-radius: 25px;
+  border: 2px solid #747272;
+}
+
+.modo-escuro-btn {
+  background-color: #252525;
+  border-radius: 25px;
+  border: 2px solid #fff;
+}
+
+.logo {
+  max-height: 35px;
+}
+
+.icones-light-dark {
+  width: 25px;
+  height: 25px;
+}
