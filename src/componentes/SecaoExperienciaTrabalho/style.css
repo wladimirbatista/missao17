@@ -24,7 +24,7 @@
   color: #CCCCCC;
 }
 
-.container-texto h2 {
+.conteiner-texto h2 {
   position: relative;
   font-size: 45px;
   font-weight: 700;
@@ -34,7 +34,7 @@
   text-align: center;
 }
 
-.container-texto h2::before{
+.conteiner-texto h2::before{
   position: absolute;
   content: "";
   bottom: 0;
@@ -46,7 +46,7 @@
   background-color: #feb633;
 }
 
-.container-texto p {
+.conteiner-texto p {
   font-size: 16px;
   font-weight: 400;
   max-width: 770px;
@@ -55,7 +55,7 @@
   text-align: center;
 }
 
-.container-cards {
+.conteiner-cards {
   display: flex;
   justify-content: center;
 }
@@ -67,7 +67,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container-cards {
+  .conteiner-cards {
     flex-direction: column;
   }
 }

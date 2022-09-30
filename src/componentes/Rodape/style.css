@@ -29,7 +29,7 @@ footer {
   margin: 36px auto 42px;
 }
 
-.icones {
+.iconesRodape {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -38,7 +38,7 @@ footer {
   margin-bottom: 50px;
 }
 
-.icones img {
+.iconesRodape img {
   width: 45px;
   cursor: pointer;
 }

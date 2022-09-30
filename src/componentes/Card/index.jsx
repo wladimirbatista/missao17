@@ -1,13 +1,13 @@
 import './style.css'
 
-export default function Card({ehTemaEscuro, data, titulo, empresa, paragrafo}) {
+export default function Card(props) {
   
   return(
-    <div className={ehTemaEscuro ? 'card-modo-escuro' : 'card-modo-claro'} id='card'>
-      <p className='primeiroParagrafo'>{data}</p>
-      <h4>{titulo}</h4>
-      <p className='segundoParagrafo'>{empresa}</p>
-      <p>{paragrafo}</p>
+    <div id='card' className={props.ehTemaEscuro ? 'card-modo-escuro' : 'card-modo-claro'}>
+      <p className='primeiroParagrafo'>{props.data}</p>
+      <h4>{props.titulo}</h4>
+      <p className='segundoParagrafo'>{props.empresa}</p>
+      <p>{props.paragrafo}</p>
     </div>
   )
 }

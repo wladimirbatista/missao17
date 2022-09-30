@@ -17,7 +17,7 @@ header {
   z-index: 1;
 }
 
-header button {
+#btn {
   display: flex;
   align-items: center;
   padding: 10px 10px;
@@ -40,7 +40,7 @@ header button {
   max-height: 35px;
 }
 
-.icones-light-dark {
+.iconesBtn {
   width: 25px;
   height: 25px;
 }

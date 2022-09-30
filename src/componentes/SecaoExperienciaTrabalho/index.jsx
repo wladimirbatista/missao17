@@ -6,14 +6,14 @@ export default function SecaoExperienciaTrabalho(props) {
 
   return (
     <section id='secaoExperienciaDeTrabalho' className={props.ehTemaEscuro ? 'secaoExperienciaDeTrabalho-modo-escuro' : 'secaoExperienciaDeTrabalho-modo-claro'}>
-      <div className='container-texto'>
+      <div className='conteiner-texto'>
         <h2>Experiências de Trabalho</h2>
         <p>
           Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de Sites e Marketing Digital, 
           nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.
         </p>
       </div>
-      <div className='container-cards limitar-secao'>
+      <div className='conteiner-cards limitar-secao'>
         <Card
           ehTemaEscuro={props.ehTemaEscuro}
           data="JUNHO 2012 - 2016"

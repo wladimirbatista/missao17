@@ -16,7 +16,7 @@ export default function Rodape(props) {
         Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias,
         ferramentas e tecnologias personalizadas.
       </p>
-      <div className='icones'>
+      <div className='iconesRodape'>
         <img src={iconeFacebook} alt="facebook"/>
         <img src={iconeTwitter} alt="twitter"/>
         <img src={iconeLinkedin} alt="linkedin"/>
