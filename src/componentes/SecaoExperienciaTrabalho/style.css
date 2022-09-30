@@ -1,27 +1,27 @@
-.secaoExperienciaDeTrabalho-modo-claro {
-  background-color: #f6f8fc;
-}
-
-.secaoExperienciaDeTrabalho-modo-claro h2{
-  color: #32333c;
-}
-
-.secaoExperienciaDeTrabalho-modo-claro p{
-  color: #8a8fa3;
-}
-
-.secaoExperienciaDeTrabalho-modo-escuro {
-  background-color: #393838;
-  color: #CCCCCC;
-}
-
-
 #secaoExperienciaDeTrabalho {
   padding: 100px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.secaoExperienciaDeTrabalho-modo-claro {
+  background-color: #f6f8fc;
+}
+
+.secaoExperienciaDeTrabalho-modo-claro h2 {
+  background-color: #393838;
+  color: #32333c;
+}
+
+.secaoExperienciaDeTrabalho-modo-claro p {
+  color: #8a8fa3;
+}
+
+.secaoExperienciaDeTrabalho-modo-escuro {
+  background-color: #393838;
+  color: #CCCCCC;
 }
 
 .container-texto h2 {

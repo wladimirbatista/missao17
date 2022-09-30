@@ -1,10 +1,10 @@
 import './style.css'
 
-export default function SecaoBanner({ehTemaEscuro}) {
+export default function SecaoBanner(props) {
 
   return(
-    <section className={ehTemaEscuro ? 'modo-escuro' : 'modo-claro'} id="secaoBanner">
-      <div className='imagem-container'></div>
+    <section id="secaoBanner">
+      <div id="imagemDeFundo" className={props.ehTemaEscuro ? 'imagemDeFundoContainer-modo-escuro' : 'imagemDeFundoContainer-modo-claro'}></div>
       <div className='texto-secaoBanner'>
         <p>BRANDING / UI / UX / TECNOLOGIA</p>
         <h2>Agência de Branding</h2>

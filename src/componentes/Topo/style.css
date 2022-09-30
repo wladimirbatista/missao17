@@ -1,16 +1,20 @@
-.modo-claro {
+.topo-modo-claro {
   background-color: #fff;
 }
 
-.modo-escuro {
+.topo-modo-escuro {
   background-color: #252525;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 header {
+  width: 100%;
   padding: 20px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
 }
 
 header button {
@@ -20,13 +24,13 @@ header button {
   cursor: pointer;
 }
 
-.modo-claro-btn {
+.btn-modo-claro {
   background-color: #fff;
   border-radius: 25px;
   border: 2px solid #747272;
 }
 
-.modo-escuro-btn {
+.btn-modo-escuro {
   background-color: #252525;
   border-radius: 25px;
   border: 2px solid #fff;

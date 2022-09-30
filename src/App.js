@@ -1,11 +1,11 @@
-import './globalStyle.css';
 import { useState } from 'react';
 import Topo from './componentes/Topo';
 import SecaoBanner from './componentes/SecaoBanner';
 import SecaoExperienciaTrabalho from './componentes/SecaoExperienciaTrabalho';
 import Rodape from './componentes/Rodape';
+import './App.css';
 
-function App() {
+export default function App() {
 
   const [ehTemaEscuro, setTemaEscuro] = useState(false)
 
@@ -22,5 +22,3 @@ function App() {
     </main>
   );
 }
-
-export default App;

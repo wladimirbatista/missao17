@@ -1,13 +1,13 @@
-.modo-claro-rodape {
+.rodape-modo-claro {
   background-color: #fff;
 }
 
-.modo-escuro-rodape {
+.rodape-modo-escuro {
   background-color: #252525;
 }
 
-.modo-escuro-rodape .copyright {
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+.rodape-modo-escuro .copyright {
+  border-top: 1px solid #ffffff0d;
 }
 
 footer {
@@ -31,13 +31,15 @@ footer {
 
 .icones {
   display: flex;
-  justify-content: center;
-  padding-bottom: 20px;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 375px;
+  padding: 0px 10px;
+  margin-bottom: 50px;
 }
 
 .icones img {
-  width: 50px;
-  margin-right: 5px;
+  width: 45px;
   cursor: pointer;
 }
 

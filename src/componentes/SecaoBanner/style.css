@@ -1,16 +1,27 @@
 #secaoBanner {
-  height: 85vh;
-  display: flex;  
+  height: 95vh;
+  padding-top: 90px;
+  display: flex;
+  position: relative;  
 }
 
-.imagem-container {
+#imagemDeFundo {
   width: 50%;
-  background-image: url('/public/assets/banner.png');
+  background-image: url('../../assets/banner.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
 }
+
+.imagemDeFundoContainer-modo-claro {
+  background-color: #fff;
+}
+
+.imagemDeFundoContainer-modo-escuro {
+  background-color: #252525;
+}
+
 
 .texto-secaoBanner {
   width: 50%;
