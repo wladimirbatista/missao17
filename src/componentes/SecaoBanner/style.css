@@ -14,14 +14,13 @@
   object-fit: cover;
 }
 
-.imagemDeFundoContainer-modo-claro {
+.fundo-modo-claro {
   background-color: #fff;
 }
 
-.imagemDeFundoContainer-modo-escuro {
+.fundo-modo-escuro {
   background-color: #252525;
 }
-
 
 .texto-secaoBanner {
   width: 50%;
@@ -52,7 +51,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .imagem-container {
+  #imagemDeFundo {
     width: 0;
   }
 

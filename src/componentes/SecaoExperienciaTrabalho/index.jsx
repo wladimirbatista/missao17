@@ -1,19 +1,19 @@
-import './style.css'
+import "./style.css";
 
 import Card from "../Card";
 
 export default function SecaoExperienciaTrabalho(props) {
-
   return (
-    <section id='secaoExperienciaDeTrabalho' className={props.ehTemaEscuro ? 'secaoExperienciaDeTrabalho-modo-escuro' : 'secaoExperienciaDeTrabalho-modo-claro'}>
-      <div className='conteiner-texto'>
-        <h2>Experiências de Trabalho</h2>
+    <section id="secaoExpDeTrab" className={props.ehTemaEscuro ? "secao-modo-escuro" : "secao-modo-claro"}>
+      <div id="container-texto" className={props.ehTemaEscuro ? "container-texto-modo-escuro" : "container-texto-modo-claro"}>
+        <h2>Experiências De Trabalho</h2>
         <p>
-          Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de Sites e Marketing Digital, 
-          nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.
+          Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de
+          Sites e Marketing Digital, nos empenhamos diariamente para entregar
+          resultados que tragam impacto aos nossos clientes.
         </p>
       </div>
-      <div className='conteiner-cards limitar-secao'>
+      <div className="container-cards limitar-secao">
         <Card
           ehTemaEscuro={props.ehTemaEscuro}
           data="JUNHO 2012 - 2016"

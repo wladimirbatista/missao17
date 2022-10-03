@@ -1,3 +1,11 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
 .rodape-modo-claro {
   background-color: #fff;
 }
@@ -8,14 +16,6 @@
 
 .rodape-modo-escuro .copyright {
   border-top: 1px solid #ffffff0d;
-}
-
-footer {
-  padding-top: 70px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .paragrafo {

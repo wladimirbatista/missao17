@@ -1,12 +1,3 @@
-.topo-modo-claro {
-  background-color: #fff;
-}
-
-.topo-modo-escuro {
-  background-color: #252525;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-}
-
 header {
   width: 100%;
   padding: 20px;
@@ -17,7 +8,16 @@ header {
   z-index: 1;
 }
 
-#btn {
+.topo-modo-claro {
+  background-color: #fff;
+}
+
+.topo-modo-escuro {
+  background-color: #252525;
+  border-bottom: 1px solid #ffffff0d;
+}
+
+button {
   display: flex;
   align-items: center;
   padding: 10px 10px;
